@@ -196,7 +196,7 @@ button.sign-up {
 
 #call-to-action .banner {
 
-    padding: 64px 128px;
+    padding: 64px 12.5%;
     background-color: #3882F6;
     border-radius: 10px;
 
@@ -241,6 +241,7 @@ button.sign-up {
 
     font-size: 18px;
     color: #f9faf8;
+    text-align: center;
 
     display: flex;
     justify-content: center;
