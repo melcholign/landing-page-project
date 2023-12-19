@@ -108,7 +108,7 @@ button.sign-up {
 /* INFO */
 
 #info {
-    padding-top: 32px;
+    padding-top: 48px;
     padding-bottom: 128px;
 
     display: flex;
@@ -162,7 +162,7 @@ button.sign-up {
 /* QUOTE */
 
 #quote {
-    padding: 128px 22.5%;
+    padding: 96px 22.5%;
     background-color: #e5e7eb;
 
     display: flex;
@@ -190,8 +190,8 @@ button.sign-up {
 /* CALL-TO-ACTION */
 
 #call-to-action {
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 
     display: flex;
     justify-content: center;
