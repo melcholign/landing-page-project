@@ -4,8 +4,6 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-div {}
-
 body>div {
     padding: 0% 12.5%;
 }
@@ -116,8 +114,6 @@ button.sign-up {
     align-items: center;
     gap: 64px;
 }
-
-#info div {}
 
 #info .header {
     font-size: 32px;
