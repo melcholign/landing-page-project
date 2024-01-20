@@ -43,15 +43,10 @@ button.sign-up {
     margin-bottom: 64px;
     padding: 16px 0px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     gap: 16px;
-}
-
-#hero .header .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #f9faf8;
-    flex-grow: 1;
 }
 
 #hero .header .links ul {
