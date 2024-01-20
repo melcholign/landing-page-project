@@ -39,6 +39,20 @@ header {
     gap: 25px;
 }
 
+header figure {
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header figcaption {
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: white;
+}
+
 header ul {
     margin: 0px;
     padding: 0px;
@@ -46,11 +60,17 @@ header ul {
     
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 20px;
 }
 
 header a {
+    letter-spacing: 1px;
     text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 /* HERO */
