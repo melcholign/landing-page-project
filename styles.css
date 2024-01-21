@@ -4,26 +4,42 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-body > * {
+body>* {
     padding: 0% 12.5%;
 }
 
-button.sign-up {
+h1,
+h2,
+h3 {
+    margin: 0px;
+}
+
+header,
+footer,
+#hero,
+#quote {
+    background-color: black;
+}
+
+#info,
+#call-to-action {
+    background-image: url(./img/starry-background.jpg);
+}
+
+button.board-apollo {
     width: fit-content;
     border: none;
     border-radius: 5px;
     padding: 8px 24px;
-    background-color: #3882F6;
-
+    background-color: transparent;
     font-size: 18px;
     font-weight: bold;
-    color: #f9faf8;
 }
 
-header,
-#hero,
-footer {
-    background-color: black;
+header a,
+#hero h2 {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 /* header */
@@ -31,7 +47,6 @@ footer {
 header {
     padding-top: 16px;
     padding-bottom: 80px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +56,6 @@ header {
 
 header figure {
     margin: 0px;
-
     display: flex;
     align-items: center;
     gap: 20px;
@@ -57,7 +71,6 @@ header ul {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -76,59 +89,41 @@ header a:hover {
 /* HERO */
 
 #hero {
-    display: flex;
-    flex-direction: column;
     padding-bottom: 128px;
-}
-
-header a,
-#hero .content .secondary {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-
-
-#hero .content {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
     gap: 48px;
 }
 
-#hero .content .text {
-
+#hero hgroup {
     flex: 1;
-
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-#hero .content .text .main {
+#hero h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-#hero .content .text button {
+#hero button {
     border: 2px solid #3882F6;
-    background-color: black;
     color: #3882F6;
     margin-top: 8px;
 }
 
-#hero .content .text button:hover {
+#hero button:hover {
     background-color: #3882F6;
     color: black;
 }
 
-#hero .content img {
+#hero img {
     max-width: 600px;
     min-width: 100px;
     height: auto;
-    background-color: #77797c;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +142,7 @@ header a,
     gap: 150px;
 }
 
-#info > div {
+#info>div {
     width: 100%;
     padding: 0px 64px;
     margin: 0px;
@@ -217,7 +212,6 @@ header a,
 
 #quote {
     padding: 96px 22.5%;
-    background-color: black;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -244,21 +238,16 @@ header a,
 #call-to-action {
     padding-top: 96px;
     padding-bottom: 96px;
-    background-image: url(./img/starry-background.jpg);
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #call-to-action .banner {
-
     padding: 64px 12.5%;
     box-shadow: 0px 0px 100px 10px #3780f680;
     border-radius: 50px;
-
     flex: 1;
-
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
@@ -266,11 +255,10 @@ header a,
 
 #call-to-action hgroup {
     margin-right: auto;
-
     flex: 1;
 }
 
-#call-to-action h2{
+#call-to-action h2 {
     margin: 0px;
     font-size: 24px;
     font-weight: bolder;
@@ -286,9 +274,7 @@ header a,
 
 #call-to-action button {
     border: 2px solid #3780f680;
-    background-color: black;
     color: #3780f680;
-    margin-top: 8px;
 }
 
 #call-to-action button:hover {
@@ -299,11 +285,9 @@ header a,
 footer {
     padding-top: 32px;
     padding-bottom: 32px;
-
     font-size: 18px;
     color: #f9faf8;
     text-align: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
