@@ -217,25 +217,23 @@ header a,
 
 #quote {
     padding: 96px 22.5%;
-    background-color: #e5e7eb;
-
+    background-color: black;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-#quote .content {
+#quote blockquote {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    color: #1f2937;
+    color: #d2d3d6;
 }
 
-#quote .author {
-
+#quote cite {
     font-size: 18px;
     font-weight: 1000;
-    color: #1f2937;
+    color: #f48f1d;
 
     display: flex;
     justify-content: flex-end;
@@ -246,6 +244,7 @@ header a,
 #call-to-action {
     padding-top: 96px;
     padding-bottom: 96px;
+    background-image: url(./img/starry-background.jpg);
 
     display: flex;
     justify-content: center;
@@ -255,8 +254,8 @@ header a,
 #call-to-action .banner {
 
     padding: 64px 12.5%;
-    background-color: #3882F6;
-    border-radius: 10px;
+    box-shadow: 0px 0px 100px 10px #3780f680;
+    border-radius: 50px;
 
     flex: 1;
 
@@ -274,24 +273,26 @@ header a,
 #call-to-action .banner .text .main {
     font-size: 24px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: #3780f680;
 }
 
 #call-to-action .banner .text .secondary {
     font-size: 18px;
-    color: #e5e7eb;
-}
-
-#call-to-action .banner .button {
-    display: flex;
-    align-items: center;
+    color: #3780f680;
 }
 
 #call-to-action .banner button {
-    padding: 8px 32px;
-    border: 3px solid #f9faf8;
-    border-radius: 10px;
+    border: 2px solid #3780f680;
+    background-color: black;
+    color: #3780f680;
+    margin-top: 8px;
 }
+
+#call-to-action .banner button:hover {
+    background-color: #3780f680;
+    color: black;
+}
+
 
 #footer {
     padding-top: 32px;
