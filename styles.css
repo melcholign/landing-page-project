@@ -134,7 +134,7 @@ header a:hover {
 #info {
     padding-top: 48px;
     padding-bottom: 128px;
-    background: url(./img/starry-background.jpg);
+    background-image: url(./img/starry-background.jpg);
 
     display: flex;
     flex-direction: column;
@@ -178,8 +178,6 @@ header a:hover {
 }
 
 #info figure img {
-    width: auto;
-    height: 150px;
     padding: 10px;
 }
 
@@ -197,10 +195,6 @@ header a:hover {
     font-size: 18px;
     text-align: center;
     color: #d2d3d6;
-}
-
-#info .sun img {
-    height: 300px;
 }
 
 #info .sun .description {
